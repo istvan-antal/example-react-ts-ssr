@@ -1,0 +1,32 @@
+{
+  "name": "example-react-ts-ssr",
+  "version": "1.0.0",
+  "description": "Example TypeScript React Application with server side rendering.",
+  "main": "./src/dev.tsx",
+  "scripts": {
+    "start": "react-ts-runtime run",
+    "build": "NODE_ENV=production ts-node -P ./node_modules/react-ts-runtime/tsconfig.json ./scripts/build.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istvan-antal/example-react-ts-ssr.git"
+  },
+  "author": "István Antal <i@istvan.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/istvan-antal/example-react-ts-ssr/issues"
+  },
+  "homepage": "https://github.com/istvan-antal/example-react-ts-ssr#readme",
+  "dependencies": {
+    "@types/react": "^16.4.12",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-ts-runtime": "0.0.26"
+  },
+  "devDependencies": {
+    "react-ts-runtime": "0.0.26",
+    "ts-node": "^7.0.1"
+  }
+}
